@@ -1,6 +1,6 @@
 {
   "name": "@azakaria/hijri-gregorian-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dual-calendar component displaying both Hijri and Gregorian dates with holiday management",
   "main": "./src/calendar.js",
   "type": "module",
