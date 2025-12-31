@@ -1,0 +1,44 @@
+{
+  "name": "@azakaria/hijri-gregorian-calendar",
+  "version": "1.0.0",
+  "description": "A dual-calendar component displaying both Hijri and Gregorian dates with holiday management",
+  "main": "./src/calendar.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/calendar.js"
+    },
+    "./config": "./src/config.js",
+    "./utils/*": "./src/date/*.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "hijri",
+    "gregorian",
+    "calendar",
+    "islamic",
+    "date",
+    "component",
+    "holidays",
+    "zero-dependency"
+  ],
+  "author": "azakaria",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azakaria/hijri-gregorian-calendar-core"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}

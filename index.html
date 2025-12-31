@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hijri-Gregorian Calendar</title>
+  <link rel="stylesheet" href="./src/calendar.css">
+</head>
+<body>
+  <div class="calendar-container">
+
+    <h2 id="monthTitle" class="calendar-header"></h2>
+    <div id="controls" class="calendar-controls">
+      <button id="prevMonth">Prev</button>
+      <button id="nextMonth">Next</button>
+    </div>
+    <div id="weekdays" class="weekdays"></div>
+    <div id="calendar" class="calendar"></div>
+    <div id="legend" class="legend"></div>
+  </div>
+
+  <script type="module" src="./src/calendar.js"></script>
+</body>
+</html>
